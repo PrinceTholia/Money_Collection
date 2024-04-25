@@ -1,0 +1,30 @@
+
+  .login {
+    position: absolute;
+    top: 3%;
+    left: 89%;
+    display: flex;
+    align-items: right;
+  }
+  
+  .login li {
+    list-style: none;
+    margin-left: 10px; /* Adjust spacing between list items */
+  }
+  
+  .login li a {
+    position: relative;
+    top: 20%;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000; /* Adjust color as needed */
+  }
+  
+  .login li a:hover {
+    color: #3c947e; /* Adjust hover color as needed */
+  }
+  .login li img {
+    width: 25px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

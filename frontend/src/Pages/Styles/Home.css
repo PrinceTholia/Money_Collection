@@ -1,0 +1,48 @@
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    background-size: cover; /* This ensures the image covers the entire viewport */
+    background-position: center; /* This centers the image */
+    /* You can add more styles here if needed */
+}
+  
+.home-background {
+    width: 100vw; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+    background-image: url('../Images/Home.jpeg');
+    background-size: cover; /* This ensures the image covers the entire container */
+    background-position: center; /* This centers the image */
+    /* You can add more styles here if needed */
+}
+  
+/* frontend/src/components/Styles/Home.css */
+.home-background {
+  /* Your existing styles */
+  position: relative; /* Make the container positioned */
+}
+
+.home-background h1 {
+  font-family:serif;
+  font-size: 50px;
+  position: absolute; /* Position the heading */
+  top: 65%; /* Position the heading vertically at the center */
+  left: 20%; /* Position the heading horizontally at the center */
+  transform: translate(-50%, -50%); /* Center the heading */
+}
+
+.image-container {
+    position: absolute;
+    top: 600px; /* Adjust as needed */
+    left: 20%; /* Adjust as needed */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.image-container img {
+  width: 80px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-container ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 80px; /* Add some spacing between the images */
+}

@@ -1,0 +1,24 @@
+/* Apply a font family to the entire application */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Apply some basic styling to links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Apply global styles to headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+}
+
+/* Apply a border box sizing model to all elements */
+* {
+  box-sizing: border-box;
+}
